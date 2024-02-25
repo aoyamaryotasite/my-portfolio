@@ -7,9 +7,48 @@ export default function AboutPg() {
         <>
             <Meta />
             <Menu />
-            <div className="section about-section about-bg">
-                <h2>ABOUT</h2>
-            </div>
+            <div className="inner-area">
+                        <h2 className="about-title">Picture</h2>
+                        <div className="about-section-block flexbox fwlap effect-fade">
+
+                            <div className="pic-item">
+                                <img src="/images/about-6pic.jpg" alt="" />
+                                <p>1990　兄と。基本おとなしいおっとりした子供だったようです。</p>
+                            </div>
+                            <div className="pic-item">
+                                <img src="/images/about-9pic.jpg" alt="" />
+                                <p>2013　自身の誕生日イベントにて、お客様や同僚からお祝いコメントボードを頂いた時の一枚</p>
+                            </div>
+                            <div className="pic-item">
+                                <img src="/images/about-8pic.jpg" alt="" />
+                                <p> 2015　自身が主宰したイベントのフライヤー</p>
+                            </div>
+                            <div className="pic-item">
+                                <img src="/images/about-3pic.jpg" alt="" />
+                                <p> 2015　主宰したイベントの売上金を東日本大震災の震災孤児へ寄付</p>
+                            </div>
+                            <div className="pic-item">
+                                <img src="/images/about-4pic.jpg" alt="" />
+                                <p> 2016　定期的に行っていたアメ村での清掃活動時の集合写真</p>
+                            </div>
+                            <div className="pic-item">
+                                <img src="/images/about-2pic.jpg" alt="" />
+                                <p>2017　自身が企画したイベント出演頂いたバンドの皆さんと</p>
+                            </div>
+                            <div className="pic-item">
+                                <img src="/images/about-1pic.jpg" alt="" />
+                                <p>2018　開催イベントでの集合写真</p>
+                            </div>
+                            <div className="pic-item">
+                                <img src="/images/about-5pic.jpg" alt="" />
+                                <p> 2019　同僚、後輩たちと</p>
+                            </div>
+                            <div className="pic-item">
+                                <img src="/images/about-7pic.jpg" alt="" />
+                                <p> 2020　休日は家族で出かけることが多いです</p>
+                            </div>
+                        </div>
+                    </div>
 
             <div className="inner-area">
                 <div className="flexbox effect-fade ">
@@ -133,51 +172,11 @@ export default function AboutPg() {
                             <dd>2020年初旬からWEB制作の勉強を独学で始める。Progateやドットインストール、Udemyなどの動画教材や書籍で主に学習しつつ、メンタリングサービスでフィードバックを定期的に頂く形で学習。その後、2020年9月をもって家庭の事情により株式会社ベースオントップを退社。アントプロダクション株式会社に入社するも契約社員の期間で退職。</dd>
                             <dt>2021</dt>
                             <dd>1月ヒロセ通商株式会社に入社。広報部のWEB担当として、WEBサイトの制作や更新、<span className="bg-color-font">WEBマーケティングの観点からサイトの現状の分析を行いサイトや広告クリエイティブの改善や制作</span>を主な業務として行っております。</dd>
-
+                            <dt>2023</dt>
+                            <dd>2月に株式会社CNに入社。<span className="bg-color-font">WEBディレクター、エンジニア、デザイナーとして勤務・クライアント様とのコミュニケーションから、スケジュールの進行管理といったディレクションから実際の制作まで</span>を主な業務として行っております。</dd>
                         </dl>
                     </div>
-                    <div className="inner-area">
-                        <h2 className="about-title">Picture</h2>
-                        <div className="about-section-block flexbox fwlap effect-fade">
-
-                            <div className="pic-item">
-                                <img src="/images/about-6pic.jpg" alt="" />
-                                <p>1990　兄と。基本おとなしいおっとりした子供だったようです。</p>
-                            </div>
-                            <div className="pic-item">
-                                <img src="/images/about-9pic.jpg" alt="" />
-                                <p>2013　自身の誕生日イベントにて、お客様や同僚からお祝いコメントボードを頂いた時の一枚</p>
-                            </div>
-                            <div className="pic-item">
-                                <img src="/images/about-8pic.jpg" alt="" />
-                                <p> 2015　自身が主宰したイベントのフライヤー</p>
-                            </div>
-                            <div className="pic-item">
-                                <img src="/images/about-3pic.jpg" alt="" />
-                                <p> 2015　主宰したイベントの売上金を東日本大震災の震災孤児へ寄付</p>
-                            </div>
-                            <div className="pic-item">
-                                <img src="/images/about-4pic.jpg" alt="" />
-                                <p> 2016　定期的に行っていたアメ村での清掃活動時の集合写真</p>
-                            </div>
-                            <div className="pic-item">
-                                <img src="/images/about-2pic.jpg" alt="" />
-                                <p>2017　自身が企画したイベント出演頂いたバンドの皆さんと</p>
-                            </div>
-                            <div className="pic-item">
-                                <img src="/images/about-1pic.jpg" alt="" />
-                                <p>2018　開催イベントでの集合写真</p>
-                            </div>
-                            <div className="pic-item">
-                                <img src="/images/about-5pic.jpg" alt="" />
-                                <p> 2019　同僚、後輩たちと</p>
-                            </div>
-                            <div className="pic-item">
-                                <img src="/images/about-7pic.jpg" alt="" />
-                                <p> 2020　休日は家族で出かけることが多いです</p>
-                            </div>
-                        </div>
-                    </div>
+                
                 </div>
                 <img className="line" src="/images/strength-line.svg" />
             </div>
