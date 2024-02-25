@@ -3,7 +3,7 @@ import React from 'react';
 export default function Works() {
     return (
         <div className="box works effect-fade" id="works">
-              <h2 class="main-subject effect-fade6 bigtext">WORKS</h2>
+              <h2 class="main-subject effect-fade6 bigtext works">WORKS</h2>
 
             <div className="inner-area">
                 <div className="flexbox">

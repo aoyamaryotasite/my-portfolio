@@ -886,6 +886,9 @@ transform:scale(1, 1);
   box-sizing: border-box;
   font-size: 8rem;
   line-height: 8rem;
+  z-index: -1;
+}
+.main-subject.works{
   z-index: 0;
 }
 

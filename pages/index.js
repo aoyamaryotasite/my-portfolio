@@ -16,12 +16,12 @@ import TitleDisplay from "/components/TitleDisplay";
 export default function Home() {
   return (
     <div>
-               <BackgroundSlider />
+      <BackgroundSlider />
       <Hero />
       <MissionEffect />
       <Mission />
       <Menu />
-      <EffectFade/>
+      <EffectFade />
       <TitleDisplay />
       <Meta pageTitle="RYOTA AOYAMA/portfolio" />
       <div className="to-top js-index16">

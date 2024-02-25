@@ -13,9 +13,13 @@ const BackgroundSlider = () => {
   ];
 
   useEffect(() => {
+    // 初期背景画像をランダムに選択して表示
+    const randomIndex = Math.floor(Math.random() * backgroundImageList.length);
+    setBackgroundImage(backgroundImageList[randomIndex]);
+
     // 背景画像を一定期間ごとに変更する処理
     const intervalId = setInterval(() => {
-      // ランダムに背景画像を選択
+      // ランダムに背景画像を選択して更新
       const randomIndex = Math.floor(Math.random() * backgroundImageList.length);
       const newBackgroundImage = backgroundImageList[randomIndex];
       setBackgroundImage(newBackgroundImage);
