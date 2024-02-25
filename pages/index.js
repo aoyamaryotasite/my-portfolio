@@ -12,12 +12,14 @@ import Menu from "/components/menu";
 import MissionEffect from "/components/mission-effect";
 import EffectFade from "/components/EffectFade";
 import TitleDisplay from "/components/TitleDisplay";
+import TextTypingAnime from "/components/textTyping";
 
 export default function Home() {
   return (
     <div>
       <BackgroundSlider />
       <Hero />
+      <TextTypingAnime/>
       <MissionEffect />
       <Mission />
       <Menu />
@@ -32,7 +34,7 @@ export default function Home() {
 
       <div className="news">
         <div className="inner-area">
-          <p>2022.10.01 ポートフォリオサイトを公開しました。</p>
+          <p>2024.02.01 ポートフォリオサイトを公開しました。</p>
         </div>
       </div>
       <div className="article">
@@ -41,7 +43,17 @@ export default function Home() {
         <Skill />
         <Works />
         <Message />
-
+        <div class="box contact effect-fade scrollify" id="contact" >
+              <div class="inner-area">
+                 <div class="works-wrapper">
+                 <div class="contact">
+                <p>お仕事のご依頼、お問い合わせは以下より</p>
+                <a href="mailto:aoyamaryota.web@gmail.com">aoyamaryota.web@gmail.com</a>
+            </div>
+                  
+                 </div>
+               </div>
+              </div>
         <div className="footer">
           <div className="copyright">
             <small>&copy; allrights reserved RYOTA AOYAMA 2024</small>
