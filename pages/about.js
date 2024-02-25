@@ -92,7 +92,7 @@ export default function AboutPg() {
                     <div className="about-section-block effect-fade">
                         <h2 className="about-title">最近の興味関心事</h2>
                         <ul>
-                            <li>・React.jsを使ったSPA開発</li>
+                            <li>・Notion</li>
                             <li>・Three.js</li>
                         </ul>
 
@@ -178,17 +178,6 @@ export default function AboutPg() {
                             </div>
                         </div>
                     </div>
-                    <div className="about-section-block">
-                        <h2 className="about-title">今回の転職に際して</h2>
-                        <p>ここまでご覧いただきありがとうございます。自身は13年間いた会社を退社し、その後3ヶ月で早期退職、そして今の会社に入社しました。<br />
-                            正直、転職回数が多くなってしまったという自覚はありますし、自身の考えが浅はかだったと感じる部分もあります。<br />
-                            ただ、改めて自分と向き合い自分が何をしたいのか考えた時に、課題のある企業や人々にWEBの仕事を通じて役に立ちたいと強く思うようになりました。<br />
-                            他者貢献をする時に、自身は自分の持っている力以上の実力を発揮する事を強く自覚しています。<br />
-                            今までの経験を活かしながら、自身のスキルを発揮して貢献できる企業様とご縁がありますように。
-                        </p>
-
-                    </div>
-
                 </div>
                 <img className="line" src="/images/strength-line.svg" />
             </div>

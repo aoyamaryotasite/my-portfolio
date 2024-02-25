@@ -44,7 +44,7 @@ export default function Home() {
 
         <div className="footer">
           <div className="copyright">
-            <small>&copy; allrights reserved RYOTA AOYAMA 2022</small>
+            <small>&copy; allrights reserved RYOTA AOYAMA 2024</small>
           </div>
         </div>
       </div>

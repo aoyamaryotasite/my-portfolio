@@ -56,7 +56,7 @@ export default function Hero() {
         </div>
       </div>
           <div className="logo js-index13">
-            <a href="http://shinowd.com/">
+            <a href="https://myportfolio-iota-coral.vercel.app/">
               <img src="images/logo.png" alt="logo" />
             </a>
           </div>

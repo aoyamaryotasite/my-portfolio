@@ -15,7 +15,7 @@ export default function Service() {
                     <div className="flexbox-parts ">
                         <h3>コーディング</h3>
                         <img src="images/service-cording.jpg" alt="coding" />
-                        <p>HTML/CSS/JavaScript/PHPを行ったWEBサイトの構築を行います。WordPressのテーマ開発も一から行います。ホームページ公開後の保守はもちろん、SEO・アクセシビリティを意識したコーディングを常に心がけております。PSD/XDのデザインデータにて承ります。</p>
+                        <p>HTML/CSS/JavaScript/PHPを行ったWEBサイトの構築を行います。WordPressのテーマ開発や、React/Next.jsを使用したWEBサイトやSPAアプリケーションを作成することも可能dす。ホームページ公開後の保守はもちろん、SEO・アクセシビリティを意識したコーディングを常に心がけております。PSDやFifmaデザインデータにて承ります。</p>
                     </div>
                     <div className="flexbox-parts ">
                         <h3>クリエイティブ制作</h3>

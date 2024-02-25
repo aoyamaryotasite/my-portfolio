@@ -2,36 +2,35 @@ body {
   font-size: 14px;
   color: #333;
   margin: 0;
-  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif
+  font-family: Helvetica, "游ゴシック", "Yu Gothic", YuGothic, HiraKakuProN-W3,
+    "メイリオ", Meiryo, sans-serif;
 }
-:root{
---color-black:#000;
+:root {
+  --color-black: #000;
 }
-
 
 #splash {
   /*fixedで全面に固定*/
-position: fixed;
-z-index: 999;
-width: 100%;
-height: 100%;
-background:#333;
-text-align:center;
-color:#fff;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  text-align: center;
+  color: #fff;
   font-size: 3rem;
-  font-family:  "din-2014", sans-serif;;
+  font-family: "din-2014", sans-serif;
 }
 
 /* Loadingバー中央配置　*/
 #splash_text {
-position: absolute;
-top: 50%;
-left: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   z-index: 999;
-width: 30%;
-transform: translate(-50%, -50%);
-color: #fff;
-
+  width: 30%;
+  transform: translate(-50%, -50%);
+  color: #fff;
 }
 
 .container {
@@ -48,11 +47,9 @@ color: #fff;
   line-height: 1;
   font-weight: bold;
 }
-.fwlap{
+.fwlap {
   flex-wrap: wrap;
 }
-
-
 
 .inner-area {
   max-width: 1000px;
@@ -65,7 +62,7 @@ color: #fff;
   display: flex;
   justify-content: space-evenly;
 }
-.jc{
+.jc {
   justify-content: space-between;
 }
 a {
@@ -76,9 +73,6 @@ a {
 li {
   list-style: none;
 }
-
-
-
 
 /* タイトルを順番に */
 .js-index1,
@@ -108,7 +102,6 @@ li {
   transform: translate(0, 0);
 }
 
-
 .section {
   background-size: cover;
   /*--背景画像のサイズ--*/
@@ -127,12 +120,12 @@ li {
 
 .background-slider {
   width: 100%;
-  height: 100vh;
+  height: 116vh;
   display: flex;
   align-items: center;
   justify-content: center;
-    z-index: 1;
-  }
+  z-index: 1;
+}
 .about-bg {
   background-image: url(/images/about-bg.jpg);
 }
@@ -226,13 +219,11 @@ h2 {
   list-style: none;
   font-weight: 100;
   cursor: pointer;
-
 }
 
 .js-menu-list__item {
   margin: 1.08333vw 0;
   font-weight: bold;
-
 }
 
 .js-menu-list__item:first-child {
@@ -377,7 +368,6 @@ h2 {
   opacity: 0.3;
 } */
 
-
 .box .flexbox {
   margin: 80px 0;
 }
@@ -485,7 +475,7 @@ h2 {
   box-shadow: 10px 10px #ccc;
   transition: 0.4s;
 }
-.works-list img:hover{
+.works-list img:hover {
   transform: scale(1.1);
 }
 .works-list ul {
@@ -494,14 +484,14 @@ h2 {
   flex-wrap: wrap;
   padding-left: 0;
 }
-.works-list p{
+.works-list p {
   text-align: center;
 }
 .works-list ul li {
   padding: 20px 20px;
   list-style: none;
   text-align: center;
-  z-index: 9999;
+  z-index: 9;
 }
 
 .works-list ul li p {
@@ -515,7 +505,6 @@ h2 {
   font-size: 2.333378vw;
   margin-bottom: 50px;
   line-height: 1.3;
-
 }
 
 .message-text {
@@ -582,9 +571,7 @@ h4 {
   height: 40px;
   padding: 5px;
   border: 1px solid #ccc;
-
 }
-
 
 .wpcf7-textarea {
   width: 100%;
@@ -612,7 +599,6 @@ h4 {
   cursor: pointer;
 }
 
-
 /* footer */
 .footer {
   background-color: var(--color-black);
@@ -620,7 +606,6 @@ h4 {
   align-items: center;
   color: #fff;
   padding: 20px 0;
-
 }
 
 .copyright {
@@ -630,10 +615,10 @@ h4 {
 
 /* 作品詳細 */
 .detail-top-pic {
-  width:100%;
+  width: 100%;
   margin: 50px 0;
 }
-.detail-pic_box{
+.detail-pic_box {
   width: 33%;
 }
 
@@ -691,7 +676,7 @@ h4 {
   cursor: pointer;
 }
 
-.btn-anime{
+.btn-anime {
   position: relative;
   overflow: hidden;
   text-decoration: none;
@@ -700,40 +685,38 @@ h4 {
   padding: 10px 30px;
   text-align: center;
   outline: none;
-  transition: ease .2s;
+  transition: ease 0.2s;
   margin: 50px 0;
 }
 
-
 .btn-anime span {
-position: relative;
-z-index: 3;
-color:#333;
+  position: relative;
+  z-index: 3;
+  color: #333;
 }
 
-.btn-anime:hover span{
-color:#fff;
+.btn-anime:hover span {
+  color: #fff;
 }
-
 
 .bgleft:before {
-content: '';
-position: absolute;
-top: 0;
-left: 0;
-z-index: 2;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
 
-background:#333;
-width: 100%;
-height: 100%;
-transition: transform .6s cubic-bezier(0.8, 0, 0.2, 1) 0s;
-transform: scale(0, 1);
-transform-origin: right top;
+  background: #333;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s cubic-bezier(0.8, 0, 0.2, 1) 0s;
+  transform: scale(0, 1);
+  transform-origin: right top;
 }
 
-.bgleft:hover:before{
-transform-origin:left top;
-transform:scale(1, 1);
+.bgleft:hover:before {
+  transform-origin: left top;
+  transform: scale(1, 1);
 }
 
 .back {
@@ -748,22 +731,23 @@ transform:scale(1, 1);
   font-weight: 300;
   line-height: 1.2;
 }
-.the_title{
+.the_title {
   width: 480px;
   padding: 40px;
-  font-family: Dosis, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", cursive;
+  font-family: Dosis, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+    メイリオ, Meiryo, "ＭＳ Ｐゴシック", cursive;
 }
-.the_title-block{
+.the_title-block {
   display: block;
   font-size: 11px;
 }
-.the_title-block dl{
+.the_title-block dl {
   display: flex;
 }
-.the_title-block dt{
+.the_title-block dt {
   color: #bbb;
 }
-.the_title-block dd{
+.the_title-block dd {
   color: #222;
 }
 .mission {
@@ -831,7 +815,6 @@ transform:scale(1, 1);
   transform: translateY(100px);
   transition: all 2s;
   color: rgba(255, 255, 255, 0.1);
-
 }
 
 .color-change {
@@ -849,8 +832,7 @@ transform:scale(1, 1);
 
 .typing-effect {
   width: 4ch;
-  animation: typing 3s steps(4),
-      blank 1s step-end infinite;
+  animation: typing 3s steps(4), blank 1s step-end infinite;
   white-space: nowrap;
 }
 
@@ -888,7 +870,7 @@ transform:scale(1, 1);
   line-height: 8rem;
   z-index: -1;
 }
-.main-subject.works{
+.main-subject.works {
   z-index: 0;
 }
 
@@ -911,7 +893,7 @@ transform:scale(1, 1);
 /*文字列後ろの線の設定*/
 .TextTyping::after {
   content: "|";
-  animation: typinganime .8s ease infinite;
+  animation: typinganime 0.8s ease infinite;
 }
 
 .line {
@@ -1026,7 +1008,7 @@ transform:scale(1, 1);
   color: #fff;
   text-decoration: none;
 }
-.pic-item{
+.pic-item {
   width: 30%;
   margin-bottom: 30px;
 }
@@ -1035,18 +1017,18 @@ transform:scale(1, 1);
   height: 225px;
   object-fit: cover;
 }
-.pic-item p{
+.pic-item p {
   margin-bottom: 10px;
   font-size: 14px;
 }
 
 /* フォーム */
-#contact .main-subject{
+#contact .main-subject {
   color: var(--color-black);
 }
 /* 全幅指定 */
 .full-width {
-  margin: 0 ;
+  margin: 0;
   padding: 10px;
 }
 /* pタグの余白を削除 */
@@ -1069,14 +1051,14 @@ transform:scale(1, 1);
   font-size: 1.5rem;
   line-height: 1.6;
   letter-spacing: 0.05em;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
   font-weight: bold;
 }
 /* 必須タグと任意タグ共通のスタイル */
 .label_tag {
   font-size: 1.5rem;
   color: #ffffff;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   margin-right: 1rem;
   padding: 5px 10px;
 }
@@ -1094,15 +1076,16 @@ transform:scale(1, 1);
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-input[type="text"],input[type="email"] {
+input[type="text"],
+input[type="email"] {
   border: solid 1px #707070;
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 1.8rem;
 }
 /* お問い合わせ内容を入力する箇所 */
 textarea.form-control {
   border: solid 1px #707070;
-  padding: .5rem;
+  padding: 0.5rem;
   height: 207px;
   font-size: 1.8rem;
 }
@@ -1110,25 +1093,24 @@ textarea.form-control {
 .btnArea {
   text-align: center;
 }
-.name_first{
+.name_first {
   margin-right: 3%;
 }
-input[type="submit"]{
+input[type="submit"] {
   background: var(--color-black);
   width: 280px;
   color: #ffffff;
   text-align: center;
   font-size: 2.5rem;
   line-height: 1.3;
-  letter-spacing: .5em;
-  text-indent: .5em;
+  letter-spacing: 0.5em;
+  text-indent: 0.5em;
   font-weight: bold;
   padding: 1.4rem 0;
   margin-top: 2rem;
   cursor: pointer;
-  border-radius: .3rem;
-  transition: all .3s;
-  
+  border-radius: 0.3rem;
+  transition: all 0.3s;
 }
 /* ボタンにホバーした時 */
 input[type="submit"]:hover {
@@ -1144,285 +1126,286 @@ input[type="submit"]:hover {
 /* モバイル版 */
 @media screen and (max-width: 480px) {
   .contact_item {
-      margin-bottom: 1.6rem;
+    margin-bottom: 1.6rem;
   }
   .label {
-      font-size: 1.5rem;
-      margin-bottom: .4rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
   }
   .label_tag {
-      font-size: 1.1rem;
+    font-size: 1.1rem;
   }
-  input[type="text"],input[type="email"] {
-      padding: .4rem;
-      font-size: 1.5rem;
+  input[type="text"],
+  input[type="email"] {
+    padding: 0.4rem;
+    font-size: 1.5rem;
   }
   textarea {
-      padding: .4rem;
-      font-size: 1.5rem;
+    padding: 0.4rem;
+    font-size: 1.5rem;
   }
-  input[type="submit"]{
-      font-size: 1.5rem;
+  input[type="submit"] {
+    font-size: 1.5rem;
   }
 }
 
 @keyframes typinganime {
   from {
-      opacity: 0
+    opacity: 0;
   }
 
   to {
-      opacity: 1
+    opacity: 1;
   }
 }
 
 @keyframes blink {
-
   0%,
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 
   50% {
-      opacity: 0;
+    opacity: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-
-  /* .js-menu{
-      bottom: 0;
-      top: 0;
-  } */
-  .inner-area{
-      padding: 0 ;
-      box-sizing: border-box;
+  .background-slider{
+    height: 100vh;
+  }
+  .inner-area {
+    padding: 0;
+    box-sizing: border-box;
   }
   .open {
-      transform: translateY(-1500px);
+    transform: translateY(-1500px);
   }
 
   .menu-circle {
-      width: 10vw;
-      height: 10vw;
-      top: 25%
+    width: 10vw;
+    height: 10vw;
+    top: 25%;
   }
 
   h1 {
-      font-size: 9.16667vw;
+    font-size: 9.16667vw;
   }
 
   .smalltxt,
   .top-description,
   .js-top-description {
-      font-size: 3.5vw;
+    font-size: 3.5vw;
   }
 
   .box {
-      padding: 0 20px ;
-      box-sizing:border-box;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
 
   h2 {
-      font-size: 16.16667vw;
+    font-size: 16.16667vw;
   }
 
   .to-top {
-      right: 13%;
+    right: 13%;
   }
 
   .flexbox {
-      display: block;
+    display: block;
   }
 
   .flexbox-parts {
-      width: 100%;
-      margin-bottom: 50px;
+    width: 100%;
+    margin-bottom: 50px;
   }
 
   .flexbox-parts p {
-      padding: 0 40px;
-      box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
   }
 
   .js-menu-list {
-      position: absolute;
-      top: 67%;
-      left: 10%;
-      font-size: 4vw;
+    position: absolute;
+    top: 67%;
+    left: 10%;
+    font-size: 4vw;
   }
 
   .prof {
-      width: 100%;
-      height: 50%;
-      display: block;
-      margin: 0 auto 30px auto;
+    width: 100%;
+    height: 50%;
+    display: block;
+    margin: 0 auto 30px auto;
   }
 
   .profile {
-      width: 100%;
-      padding: 0 30px;
-      box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
   }
   .works-list img {
-      width: 100%;
-      height: auto;
-      box-shadow: 4px 4px #ccc;
+    width: 100%;
+    height: auto;
+    box-shadow: 4px 4px #ccc;
   }
   .gridbox {
-      grid-template-columns: 33% 33% 33%;
-      width: 100%;
-      margin-bottom: 50px;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+    margin-bottom: 50px;
   }
   .contact {
-      padding:20px;
+    padding: 20px;
   }
   .gridbox img {
-      display: block;
-      margin: 0 auto;
+    display: block;
+    margin: 0 auto;
   }
 
   .text {
-      width: 100%;
-      padding: 0 40px;
-      box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
   }
 
   .text dd {
-      line-height: 2;
-      margin-top: 10px;
-      margin-bottom: 20px;
+    line-height: 2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0;
   }
 
   .news {
-      text-align: center;
+    text-align: center;
   }
 
   .news::before {
-      top: 39px;
-      right: 45vw;
+    top: 39px;
+    right: 45vw;
   }
 
   .news::after {
-      top: 39px;
-      right: 17px;
+    top: 39px;
+    right: 17px;
   }
 
   .slick-next:before {
-      display: none;
+    display: none;
   }
 
   .slick-next {
-      display: none;
-      right: 0;
+    display: none;
+    right: 0;
   }
 
   .slick-slide img {
-      width: 100%;
+    width: 100%;
   }
 
   .message-flex {
-      padding: 20px;
-      box-sizing: border-box;
+    box-sizing: border-box;
   }
 
   .message h3 {
-      font-size: 6.333378vw;
+    font-size: 6.333378vw;
   }
 
   .message-flex:nth-child(4) {
-      margin-bottom: 50px;
+    margin-bottom: 50px;
   }
 
   .works h3 {
-      margin-bottom: 30px;
-      text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
   }
 
   .contact-contents__item--required {
-      display: block;
-      margin: 0 auto;
-      text-align: center;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
-
+  .js-menu-list ul {
+    padding-left: 0;
+  }
   .wpcf7 input[type="email"],
   .wpcf7-text,
   .wpcf7-textarea {
-      max-width: 300px;
-      display: block;
-      margin: 0 auto;
-      text-align: center;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .works-left p {
-      margin-bottom: 20px;
-      padding-left: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
   }
 
   .works-left h3 {
-      font-size: 5.5vw;
+    font-size: 5.5vw;
   }
 
   .slider {
-      max-width: 100%;
+    max-width: 100%;
   }
-  .works-list ul{
-      display: flex;
+  .works-list ul {
+    display: flex;
   }
   .works-list ul li {
-      width:39%;
-      display: block;
-      margin: 0 auto;
+    width: 39%;
+    display: block;
+    margin: 0 auto;
   }
-  .works-list p{
-      padding-bottom: 50px;
+  .works-list p {
+    padding-bottom: 50px;
   }
-  .mission{
-      padding: 0 20px ;
-      box-sizing: border-box;
+  .mission {
+    padding: 0 20px;
+    box-sizing: border-box;
   }
-  .mission-h2,.main-subject{
-      font-size: 4rem;
-      line-height: 7rem;
-      padding-left: 0;
+  .mission-h2,
+  .main-subject {
+    font-size: 4rem;
+    line-height: 7rem;
+    padding-left: 0;
+  }
+  .main-subject.works {
+    z-index: 0;
   }
   .scroll-down-inner2 {
-      height:77vh;
-      max-width: 1200px;
-      width: 100%;
-      margin: 0 auto;
+    height: 77vh;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
   }
-  .scroll-down-message{
-
-      font-size: 1.5rem;
- 
+  .scroll-down-message {
+    font-size: 1.2rem;
   }
   .scroll-down-text {
-      font-size: 1.5rem;
+    font-size: 1.2rem;
   }
-  .pic-item{
-      width: 100%;
+  .pic-item {
+    width: 100%;
   }
-  .pic-item img{
-      width: 100%;
+  .pic-item img {
+    width: 100%;
   }
   .detail-pic {
-      flex-direction: column;
+    flex-direction: column;
   }
   .detail-pic_box {
-      width:100%;
+    width: 100%;
   }
-  .the_title{
-      width: 100%;
-      padding: 20px 0;
+  .the_title {
+    width: 100%;
+    padding: 20px 0;
   }
-  
 }
 
-@media screen and (max-width:391px){
+@media screen and (max-width: 391px) {
   .works-list ul li {
-      width:37%;
-      display: block;
-      margin: 0 auto;
+    width: 37%;
+    display: block;
+    margin: 0 auto;
   }
 }
