@@ -13,6 +13,7 @@ import MissionEffect from "/components/mission-effect";
 import EffectFade from "/components/EffectFade";
 import TitleDisplay from "/components/TitleDisplay";
 import TextTypingAnime from "/components/textTyping";
+import ScrollToTopButton from "/components/toTop";
 
 export default function Home() {
   return (
@@ -25,12 +26,9 @@ export default function Home() {
       <Menu />
       <EffectFade />
       <TitleDisplay />
+      <ScrollToTopButton/>
       <Meta pageTitle="RYOTA AOYAMA/portfolio" />
-      <div className="to-top js-index16">
-        <div className="to-top-item">
-          <p>SCROLL TOP</p>
-        </div>
-      </div>
+ 
 
       <div className="news">
         <div className="inner-area">
